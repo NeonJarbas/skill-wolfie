@@ -16,7 +16,7 @@ from mycroft.messagebus.message import Message
 from mycroft.skills.core import intent_handler
 from mycroft.configuration import LocalConf, USER_CONFIG
 from mycroft.skills.common_query_skill import CommonQuerySkill, CQSMatchLevel
-from google_trans_new import google_translator
+from google_tx import google_translator
 
 
 class WAApi(Api):
